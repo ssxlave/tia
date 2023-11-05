@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="ww.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/carts.css">
+    <link rel="stylesheet" href="./css/bese.css">
+    <link rel="stylesheet" href="./css/common.css">
+
+</head>
+<body>
+    <body>
+        <!-- 快捷导航 -->
+        <div class="kjdh">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="qxdr.html" target="_blank">请先登录</a></li>
+                    <li><a href="mfzc.html" target="_blank">免费注册</a></li>
+                    <li><a href="wddd.html" target="_blank">我的订单</a></li>
+                    <li><a href="hyzx.html" target="_blank">会员中心</a></li>
+                    <li><a href="bzzx.html" target="_blank">帮助中心</a></li>
+                    <li><a href="zxkf.html" target="_blank">在线客服</a></li>
+                    <li><a href="sjb.html" target="_blank"><span></span>手机版</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 头 -->
+        <div class="header wrapper">
+            <div class="logo">
+                <h1><a href="#">万物</a></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="shengxian.html" target="_blank">生鲜</a></li>
+                    <li><a href="meishi.html" target="_blank">美食</a></li>
+                    <li><a href="jujia.html" target="_blank">居家</a></li>
+                    <li><a href="xihu.html" target="_blank">洗护</a></li>
+                    <li><a href="fushi.html" target="_blank">服装</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="搜一搜">
+                <!-- 定位 放大镜 -->
+                <span></span>
+            </div>
+            <a href="./carts.html" target="_blank">        <div class="car">
+                <span>2</span>
+            </div></a>
+        </div>
+    		<!--显示菜单的开始-->
+            <div class="tips warp">
+		  	
+                <ul>
+                    <li>
+                        <input type="checkbox" name="fav" id="all" onclick="checkTest1(this),checkTest2()"/>
+                        全选
+                    </li>
+                    <li>商品</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>操作</li>
+                </ul>
+               
+               
+           </div>
+         <!--显示菜单的结束-->
+    		<!--商品详情展示开始-->
+            <div class="info warp">
+		  	
+		  	  <ul>
+		  	  	<li class="info_1"><input type="checkbox"   name="fav" onclick="checkTest2()"/> </li>
+		  	  	<li class="info_2"> <img src="./uploads/nut_goods_1.jpg" width="80px"/> </li>
+		  	  	<li class="info_3"><a>水果干混合装零食大礼包</a></li>
+		  	  	<li class="info_4"><a>芒果干</a> </li>
+		  	  	<li class="info_5">29.9</li>
+		  	  	<li class="info_6">
+		  	  		<button onclick="checkTest3(this,1),checkTest2()">-</button>
+		  	  		<input type="text" name="" id="" value="1" />
+		  	  		<button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+		  	  		
+		  	  	</li>
+		  	  	<li class="info_7">￥29.9</li>
+		  	  	<li>
+		  	  		<a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+		  	  		<a>已到我的关注</a>
+		  	  	</li>
+		  	  </ul>
+		  </div>
+		
+		 <div class="info warp">
+		  	
+		  	  <ul>
+		  	  	<li class="info_1"><input type="checkbox" name="fav" onclick="checkTest2()"/> </li>
+		  	  	<li class="info_2"> <img src="./uploads/nut_goods_6.jpg" width="80px"/> </li>
+		  	  	<li class="info_3"><a>越南带衣大腰果</a></li>
+		  	  	<li class="info_4"><a>1盒</a> </li>
+		  	  	<li class="info_5">29.9</li>
+		  	  	<li class="info_6">
+		  	  		<button onclick="checkTest3(this,1),checkTest2()">-</button>
+		  	  		<input type="text" name="" id="" value="1" />
+		  	  		<button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+		  	  		
+		  	  	</li>
+		  	  	<li class="info_7">￥29.9</li>
+		  	  	<li>
+		  	  		<a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+		  	  		<a>已到我的关注</a>
+		  	  	</li>
+		  	  </ul>
+		  	
+		  	
+		  </div>
+		  
+		   <div class="info warp">
+		  	
+		  	  <ul>
+		  	  	<li class="info_1"><input type="checkbox" name="fav"  onclick="checkTest2()"/> </li>
+		  	  	<li class="info_2"> <img src="./uploads/nut_goods_8.jpg" width="80px"/> </li>
+		  	  	<li class="info_3"><a>土耳其进口无核黑杏干</a></li>
+		  	  	<li class="info_4"><a>1盒</a> </li>
+		  	  	<li class="info_5">25</li>
+		  	  	<li class="info_6">
+		  	  		<button onclick="checkTest3(this,1),checkTest2()">-</button>
+		  	  		<input type="text" name="" id="" value="1" />
+		  	  		<button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+		  	  		
+		  	  	</li>
+		  	  	<li class="info_7">￥25</li>
+		  	  	<li>
+		  	  		<a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+		  	  		<a>已到我的关注</a>
+		  	  	</li>
+		  	  </ul>
+		  	
+		  	
+		  </div>
+		<!--商品详情展示结束-->
+		
+		<!--结算开始-->
+		
+	   <div class="balance warp">
+	   	
+	   	   <ul class="balance_ul1">
+	   	   	<li>
+	   	   		
+	   	   		<input type="checkbox" name="fav" id="" value=""  onclick="checkTest1(this),checkTest2()"/>
+	   	   		全选
+	   	   	</li>
+	   	   	<li><a>删除选中商品</a></li>
+	   	   	<li><a>移到我的关注</a></li>
+	   	   	<li><a>清除下柜商品</a></li>
+	   	   </ul>
+	   	   
+	   	   <ul class="balance_ul2">
+	   	   	
+	   	   	 <li>已经选择<span id="snum">0</span>件商品</li>
+	   	   	 <li class="kuan">总价 <span id="zongz">￥0</span></li>
+	   	   	 <li>
+	   	   	 	<button class="butt">去结算</button>
+	   	   	 	
+	   	   	 </li>
+	   	   	
+	   	   </ul>
+	   	
+	   	
+	   </div>
+		
+		
+		<!--结算结束-->
+	</body>
+        <!-- 版权区域 -->
+        <div class="footer">
+            <div class="wrapper">
+                <div class="top">
+                    <ul>
+                        <li>
+                            <!-- 通过伪元素添加标签实现精灵图 -->
+                            <span>价格亲民</span>
+                        </li>
+                        <li>
+                            <span>物流快捷</span>
+                        </li>
+                        <li>
+                            <span>品质新鲜</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <p>
+                        <a href="#">关于我们</a> |
+                        <a href="#">帮助中心</a> |
+                        <a href="#">售后服务</a> |
+                        <a href="#">配送与验收</a> |
+                        <a href="#">商务合作</a> |
+                        <a href="#">搜索推荐</a> |
+                        <a href="#">友情链接</a>
+                    </p>
+                    <p>CopyRight @ 万物</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

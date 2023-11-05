@@ -1,0 +1,77 @@
+/* 生鲜 */
+.shengxian .hd {
+    height: 96px;
+    line-height: 96px;
+}
+
+.shengxian .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+
+.shengxian .bd .left {
+    float: left;
+    width: 240px;
+    height: 610px;
+    background-color: pink;
+}
+.shengxian .bd .left img{
+    width: 240px;
+	height: 610px;
+}
+
+.shengxian .bd .right {
+    float: left;
+    width: 993px;
+    height: 610px;
+    margin-left: 7px;
+}
+.shengxian .bd .right li{
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 3px;
+
+    width: 242px;
+    height: 304px;
+    border: 1px solid transparent;
+}
+.shengxian .bd .right li:hover{
+    width: 242px;
+    height: 304px;
+    border: 1px solid #000;
+}
+/* 第四个li和第八个li右侧间距清除 */
+.shengxian .bd .right li:nth-child(4n){
+    margin-right: 0;
+}
+.shengxian .bd .right img{
+    width: 184px;
+	height: 184px;
+    display: inline-block;
+    margin: 8px 29px 0px ;
+}
+.shengxian .bd .right .nr{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #333333;
+    font-family: PingFangSC-Regular;
+}
+.shengxian .bd .right .jiage{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: PingFangSC-Medium;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #9a2e1f;
+
+}
